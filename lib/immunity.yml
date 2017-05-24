@@ -1,0 +1,43 @@
+SQL:
+  username: root
+  password: enter11284
+  database: immunity
+  host: localhost
+  port: 3306
+  table_name: rm_immunity
+Messages: 
+  prefix: "&b&l[&6&lImmunity&b&l]&r: " # This is automatically tacked on to all messages
+  not_enough_money: "&4&lYou don't have enough money!" #message sent when you don't have enough
+  no_faction: "&4&lYou don't have a faction!"
+  already_immune: "&e&lYou're already immune for another: %h hours, %m minutes, and %s seconds" #%m represents how many minutes of immunity left, %h hours, %s seconds
+  bought_immunity: "&a&lYou bought immunity for $%p, and you have $%l left!" #%p represents price, and %l represents how much money is left
+Menu:
+  inventory_size: 45
+  data_one: 5 # This is the data value of the first set of colored panes
+  data_two: 8 # This is the data value of the second set of colored panes
+  data_three: 7 # This is the data value of the third set of colored panes
+  menu_name: "&2Immunity Menu" #immunity menu name
+  hour_button_pos: 13 #where in the inv hour goes
+  half_day_button_pos: 22 # where in teh inv half day goes
+  full_day_button_pos: 31 #where in the inv full day goes
+  hour_button_name: "&a&lOne Hour" #hour icon name
+  half_day_name: "&2&lHalf Day" #half day icon name
+  full_day_name: "&b&lFull Day" #full day icon name
+  hour_lore: #hour icon lore
+    - "&e&lThis will give one hour of immunity"
+    - "&7&l[&2&lClick to Buy&7&l]"
+    - "&6&lCost: &b&l25000"
+  half_day_lore: #half day icon lore
+    - "&e&lThis will give one hour of immunity"
+    - "&7&l[&2&lClick to Buy&7&l]"
+    - "&6&lCost: &b&l50000"
+  full_day_lore: #full day icon lore
+    - "&e&lThis will give one hour of immunity"
+    - "&7&l[&2&lClick to Buy&7&l]"
+    - "&6&lCost: &b&l75000"
+  hour_material: iron_sword # The material used for the hour icon
+  half_day_material: gold_sword # The material used for the half day icon
+  full_day_material: diamond_sword # The material used for the full day icon
+  hour_cost: 25000 # Hour immunity cost
+  half_cost: 50000 # Half day immunity cost
+  full_cost: 75000 # Full day immunity cost
